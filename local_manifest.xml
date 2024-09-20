@@ -4,26 +4,29 @@
     <remote name="inferno0230"
             fetch="https://github.com/OnePlus-Nord-CE4-development" />
 
+    <remote name="12R"
+            fetch="https://github.com/OnePlus12R-Development" />
+
     <!-- device tree deps-->
-    <project path="device/oneplus/benz" name="android_device_oneplus_benz" revision="lineage-21" remote="inferno0230" />
+    <project path="device/oneplus/benz" name="device_oneplus_benz" revision="lineage-21" remote="inferno0230" />
 
     <!-- Wtf is this. Why tf is this>
-    <project path="device/oneplus/benz-kernel" name="android_device_oneplus_benz-kernel" revision="lineage-21" remote="inferno0230" /-->
+    <project path="device/oneplus/benz-kernel" name="device_oneplus_benz-kernel" revision="lineage-21" remote="inferno0230" /-->
 
     <!-- common tree -->
-    <project path="device/oneplus/sm7550-common" name="android_device_oneplus_sm7550-common" revision="lineage-21" remote="inferno0230" />
+    <project path="device/oneplus/sm7550-common" name="device_oneplus_sm7550-common" revision="lineage-21" remote="inferno0230" />
 
     <!-- ktree -->
-    <project path="kernel/oneplus/sm7550" name="android_kernel_oneplus_sm7550" revision="lineage-21-wip" remote="inferno0230" />
+    <project path="kernel/oneplus/sm7550" name="kernel_oneplus_sm7550" revision="lineage-21-wip" remote="inferno0230" />
 
     <!-- kmod -->
-    <project path="kernel/oneplus/sm7550-modules" name="android_kernel_oneplus_sm7550-modules" revision="lineage-21-wip" remote="inferno0230" />
+    <project path="kernel/oneplus/sm7550-modules" name="kernel_oneplus_sm7550-modules" revision="lineage-21-wip" remote="inferno0230" />
 
     <!-- kdtsi -->
-    <project path="kernel/oneplus/sm7550-devicetrees" name="android_kernel_oneplus_sm7550-devicetrees" revision="lineage-21-wip" remote="inferno0230" />
+    <project path="kernel/oneplus/sm7550-devicetrees" name="kernel_oneplus_sm7550-devicetrees" revision="lineage-21-wip" remote="inferno0230" />
 
     <!-- hardware/oplus -->
-    <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-21" remote="inferno0230" />
+    <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-21" remote="12R" />
 
     <!-- vendor device -->
     <project path="vendor/oneplus/benz" name="vendor_oneplus_benz" revision="lineage-21" remote="inferno0230" />
