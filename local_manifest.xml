@@ -13,7 +13,7 @@
     <project path="device/oneplus/benz-kernel" name="device_oneplus_benz-kernel" revision="lineage-21" remote="inferno0230" />
 
     <!-- common tree -->
-    <project path="device/oneplus/sm7550-common" name="device_oneplus_sm7550-common" revision="lineage-21" remote="crackedpotato" />
+    <project path="device/oneplus/sm7550-common" name="android_device_oneplus_sm7550-common" revision="lineage-21" remote="crackedpotato" />
 
     <!-- ktree -->
     <project path="kernel/oneplus/sm7550" name="kernel_oneplus_sm7550" revision="lineage-21" remote="inferno0230" />
